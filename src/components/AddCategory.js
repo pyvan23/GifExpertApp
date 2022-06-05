@@ -10,7 +10,7 @@ export const AddCategory = ({ setCategories }) => {
   const handleSubmit = (e) => {
     e.preventDefault(); //no se refresca el browser
     if (inputValue.trim().length > 2) {
-      setCategories((cats) => [...cats, inputValue]); //llamamos las props que vienen del componente padre
+      setCategories((cats) => [inputValue, ...cats ]); //llamamos las props que vienen del componente padre
       setInputValue("");
     }
   };
