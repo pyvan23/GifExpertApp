@@ -1,13 +1,12 @@
 * {
-  font-family: 'Courier New', Courier, monospace, Arial, sans-serif;
-  color: aliceblue;
+  font-family: "Courier New", Courier, monospace, Arial, sans-serif;
+  color:white;
   background-color: black;
 }
 
 body {
   padding: 60px;
 }
-
 
 .card-grid {
   display: flex;
@@ -30,5 +29,10 @@ body {
 }
 
 .card img {
-  max-height: 200px;
+  max-height: 175px;
+}
+.inputBox {
+  background-color: blanchedalmond;
+  color: black;
+  font-family:  monospace;
 }
