@@ -1,5 +1,11 @@
-Deployed app
-https://pyvan23.github.io/GifExpertApp/
+## Gif Expert App ##
+
+github pages deploy: https://pyvan23.github.io/GifExpertApp/
+
+-Es una aplicacion web responsiva que busca gifts con un limite de paginacion configurada en 10,
+
+que consume la api de https://api.giphy.com mediante del uso de fetch, y hooks personalizados.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
